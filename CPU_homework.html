@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #F7F9FC;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework</title>
+    <style>
+        .box {
+            background-color: #FFFFFF;
+            width: 800px;
+            margin: 120px auto;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 10px 10px 5px #F2F3F5;
+            box-sizing: border-box;
+        }
+
+        .profile {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 50px;
+        }
+
+        .circle {
+            background-color: #AAACB1;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            background-image: url('./img/고양이\ 얼빡.png');
+            background-size: cover;
+            background-position: center;
+            margin-right: 30px;
+            flex-shrink: 0;
+        }
+
+         .contact-button {
+            background-color: #56D6FF; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+         }
+
+        .boxbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 48px;
+        }
+
+        .boxbox h1 {
+            margin: 0;
+        }
+
+        .boxbox p {
+            margin: 5px 0 10px 0;
+            color: #888;
+        }
+
+        .location-box {
+            display: flex;
+            margin-top: 10px;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .location {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .house {
+            color: #56D6FF;
+            font-size: 16px;
+        }
+
+        .location-box img {
+            height: 20px;
+            width: 18px;
+            object-fit: contain;
+        }
+
+        .info-row {
+            display: flex;
+            margin-bottom: 12px;
+        }
+
+        .info-location {
+            width: 150px;
+            font-weight: normal;
+            color: #333;
+            font-size: 0.95em;
+        }
+
+        .info-value {
+            flex-grow: 1;
+            text-align: left;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="profile">
+            <div class="circle"></div>
+            <div class="boxbox">
+                <h1>Choi MyeongJun</h1>
+                <p>BackEnd Developer</p>
+                <div class="location-box">
+                    <img class="location" src="./img/KakaoTalk_20250820_191517686.png">
+                    <p class="house">경기도 시흥시</p>
+                </div>
+                <button class="contact-button">Contact</button>
+            </div>
+        </div>
+
+        <div class="info-row">
+            <span class="info-location">Location</span>
+            <span class="info-value">경기도</span>
+        </div>
+        <div class="info-row">
+            <span class="info-location">Age</span>
+            <span class="info-value">09년생</span>
+        </div>
+        <div class="info-row">
+            <span class="info-location">Experience</span>
+            <span class="info-value">?</span>
+        </div>
+        <div class="info-row">
+            <span class="info-location">School</span>
+            <span class="info-value">미림마고 뉴미디어소프트웨어과</span>
+        </div>
+    </div>
+</body>
+</body>
+
+</html>
